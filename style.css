@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+}
+
+.main {
+    background-image: url(/images/orange-backdrop\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.main p {
+    width: 587px;
+    margin-left: 15rem;
+    margin-top: -1rem;
+    font-size: 46.67px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1E1E1E;
+}
+
+.music {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15rem;
+    margin-right: 30rem;
+    background-color: rgba(251, 216, 164, 1);
+    border-radius: 50px;
+    gap: 10px;
+    padding: 0rem 1rem 0rem 2rem;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgba(251, 216, 164, 1);
+}
