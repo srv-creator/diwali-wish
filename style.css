@@ -1,23 +1,23 @@
 body {
-  margin: 0;
-  font-family: "Salsa", cursive;
-  font-weight: 400;
-  font-style: normal;
-  min-height: 100vh;
+    margin: 0;
+    font-family: "Salsa", cursive;
+    height: 100vh;
 }
 
-.main {
-    
+.hero {
     background-image: url(/images/background.png);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
-.main p {
-    max-width: 33rem;
-    margin-left: 15rem;
+.jhalar {
+    max-width: 393px;
+}
+
+.para {
+    max-width: 587px;
+    height: 228px;
     margin-top: -1rem;
     font-size: 46.67px;
     line-height: 100%;
@@ -25,52 +25,162 @@ body {
     color: #1E1E1E;
 }
 
-.music {
+.para-audio {
+    margin-left: 231px;
+}
+
+.audio-container {
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 28rem;
-    margin-left: 15rem;
-    margin-right: 30rem;
-    background-color: rgba(251, 216, 164, 1);
-    border-radius: 50px;
-    gap: 10px;
-    padding: 0rem 0rem 0rem 1rem;
+    background-color: #FBD8A4;
+    max-width: 482px;
+    min-height: 61px;
+    border-radius: 46px;
+    padding-left: 1.5rem;
+    margin-top: -4rem;
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: rgba(251, 216, 164, 1);
+    background-color: #FBD8A4;
 }
 
-.layer2 {
-    background-color: rgba(249, 149, 1, 1);
+.ganesh-laxmi {
+    background-color: #F99501;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.layer2 img {
+.hr {
+    gap: 12px;
+    max-width: 1010px;
+    width: 100%;
+    min-height: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.line {
+    width: 468px;
+    height: 3px;
+    background-color: #FBD8A4;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #FBD8A4;
+    border-radius: 50%;
+}
+
+.ganesh-lakshmi {
+    width: 100%;
+    max-width: 1364px;
+    min-height: 763px;
+    display: block;
+    margin-inline: auto;
+    padding-top: 2.5rem;
+}
+
+.wishes {
+    font-family: "Style Script", cursive;
+    max-width: 1162px;
+    min-height: 102px;
+    font-size: 70px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1E1E1E;
+    margin-left: 215px;
+    font-weight: 400;
+    margin-bottom: -1rem;
+}
+
+.little-girl {
+    background-color: #F99501;
     display: flex;
 }
 
-@media (max-width: 768px) {
-    .main {
-        width: 2000px;
-}
-    
-.main p {
-    max-width: 32%;
-    margin-left: 2rem;
-    margin-top: 0rem;
-    font-size: 46.67px;
+.box {
+    min-width: 855px;
+    height: 753px;
+    background-color: #FFFFFF;
+    margin-left: 220px;
+    margin-top: 108px;
+    border-radius: 30px;
 }
 
-.music {
-    margin-left: 2rem;
+.para-first {
+    max-width: 668px;
+    min-height: 173px;
+    font-size: 45.92px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1E1E1E;
+    margin: 99px 94px 0 93px;
 }
 
-.hide-img {
-    display: none;
-} 
-
-.deepak {
-    margin-left: 38rem;
+.para-second {
+    max-width: 668px;
+    min-height: 405px;
+    font-size: 45.14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1E1E1E;
+    margin-left: 250px;
+    margin: 0px 94px 0 93px;
 }
+
+.little-girl-image {
+    max-width: 453.89px;
+    min-height: 977.62px;
+    margin-top: 17px;
+    margin-right: 98px;
+    margin-left: -130px;
+    margin-bottom: 29.38px;
+}
+
+.last {
+    padding-top: 32px;
+    background-color: #F99501;
+    padding-bottom: 1rem;
+}
+
+.card-image {
+    margin: 66px 31px 40px 32px;
+    max-width: 1377px;
+}
+
+.happy {
+    width: 411px;
+    height: 61px;
+    margin-left: 48px;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.thanks {
+    font-family: "Style Script", cursive;
+    width: 941px;
+    height: 93.1;
+    margin-left: 42px;
+    font-size: 70.5px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1E1E1E;
+}
+
+.name {
+    width: 223px;
+    height: 20px;
+    margin-left: 1340px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+;
 }
